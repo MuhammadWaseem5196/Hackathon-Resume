@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.main-container{
+  border: 3px solid rgba(0,0,0, 0.1);
+  padding-top: 40px;
+  width: 900px;
+  position: absolute;
+  left: 200px;
+  height: 1000px;
+  border-radius: 20px;
+  overflow: hidden; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header{
+    height: 250px;
+    
+    background-color: rgb(249, 222, 188);
+    
+}
+.sidebar{
+    height: 100%;
+    width: 240px;
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    background-color: rgb(29, 222, 203);
+    display: flex;
+    justify-content: center;
+    
+    
+    
+
+}
+
+#picture{
+    height: 200px;
+    width: 200px;
+    border: 3px solid #99f9e680;
+    position: absolute;
+    top: 60px;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0px 0px 50px  rgb(249, 249, 252);
+    
+}
+
+
+.h1{
+    top: 80px;
+    position: relative;
+    left: 300px;
+    
+}
+
+.progess{
+    height: 100%;
+    width: 67.8%;
+    position:absolute;
+    right: 0;
+    
+    
+    
+}
+
+.detail{
+    padding: 50px;
+}
+
+.detail h2 , h3 {
+    padding-left: 50px;
+}
+
+.about{
+    top: 300px;
+    position: absolute;
+    padding: 20px;
+    text-align: justify;
+}
+
+#button{
+    height: 40px;
+    width: 80%;
+    border-radius: 20px;
+    border: 3px double green;
+    
+    
+}
+
+#button:hover{
+    background-color:black;
+    color: aliceblue;
+    
+    
+}
+
+li{
+    text-align: center;
+}
